@@ -30,7 +30,8 @@ twitter_username: sumeet92k
 github_username:  github.com/sumeet92k
 
 # Build settings
-theme: minima
+# theme: minima
+theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
 
