@@ -6,13 +6,11 @@ date:   '2019-11-20 15:12:11 +0530'
 categories: ParaView
 ---
 ParaView is packed with a very powerful library which makes it feasible to execute complex vtk commands. The first thing we'll do is take the ParaView data and manipulate it using the script we generated previously `trace.py`. We'll work on the contour data that was produced in the script called `contour1` (this is the default name that ParaView uses for contour). Let's gather this data in a useful form in the variable `data`:
-# {% highlight python %}
 ```python
 from vtk.numpy_interface import dataset_adapter as dsa
 rawData = servermanager.Fetch(contour1)
 data = dsa.WrapDataObject(rawData)
 ```
-# {% endhighlight %}
 First we import the `dsa` library which adds numpy functionality. Here `data` is the dataset that we'll work on. To explore what it contains, we can use
 ```python
 dir(data)
