@@ -5,7 +5,7 @@ On this repository's website [paraview-scripts](https://sumeet92k.github.io/para
 The correct sequence to go with the tutorials is:
 1. [Auto generating code using Trace]({% post_url 2019-11-18-auto-generating-code %})
 2. [paraview.simple library]({% post_url 2019-11-20-paraview-simple-library %})
-3. [Auto generating code using Trace](2019-11-18-auto-generating-code.md)
+3. [Auto generating code using Trace](docs/_posts/2019-11-18-auto-generating-code.md)
 
 ### Support or Contact
 For clarification, comments and suggestions, feel free to contact the developer.
